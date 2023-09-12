@@ -1,0 +1,54 @@
+.container-error {
+    display: flex;
+    color: $primary-color;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        font-size: 200px;
+        margin-bottom: 1%;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 11%;
+    }
+
+    .link {
+        font-size: 18px;
+        text-decoration: underline;
+        color: $primary-color;
+        margin-bottom: 7%;
+
+    }
+}
+
+@media screen and (max-width:767px) {
+    .container-error {
+        h1 {
+            font-size: 150px;
+        }
+
+        h2 {
+            text-align: center;
+            width: 60%;
+        }
+    }
+}
+
+@media screen and (max-width:425px) {
+    .container-error {
+        h1 {
+            font-size: 100px;
+        }
+
+        h2 {
+            font-size: 18px;
+            width: 80%;
+        }
+
+        .link {
+            font-size: 14px;
+        }
+    }
+}

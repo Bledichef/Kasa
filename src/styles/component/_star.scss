@@ -1,0 +1,19 @@
+.star {
+
+    .red-star,
+    .grey-star {
+        width: 11%;
+        margin-right: 4%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .star {
+
+        .red-star,
+        .grey-star {
+            width: 12%;
+        }
+
+    }
+}
