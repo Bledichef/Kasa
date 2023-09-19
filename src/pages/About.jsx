@@ -1,5 +1,5 @@
 import React from 'react';
-import Dropdown from '../components/Dropdown';
+import Dropdown from '../components/Collapse';
 
 /**
  * About Page - with banner and Dropdown components

@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import Tag from '../components/Tag';
 import Star from '../components/Star';
-import Dropdown from '../components/Dropdown';
+import Dropdown from '../components/Collapse';
 import CoverPicture from '../components/CoverPicture';
 
 /**
