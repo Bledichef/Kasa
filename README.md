@@ -1,3 +1,8 @@
+Installation du projet avec la commande "npm install" 
+
+Démarrer le serveur une fois le projet installé avec "npm start"
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
