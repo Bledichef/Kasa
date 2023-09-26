@@ -49,6 +49,7 @@
             width: 70%;
 
             .name {
+                white-space: wrap;
                 color: $primary-color;
                 margin-left: 10%;
                 text-align: end;
@@ -62,7 +63,7 @@
         }
 
         .star {
-            width: 70%;
+            // width: 70%;
             margin-top: 5%;
         }
 
